@@ -1,11 +1,13 @@
 .left-section{
     grid-column: span 1;
-    background-color: bisque;
+    background-color: rgb(49, 49, 102);
+    border: 5px solid rgb(49, 49, 102);
+    border-radius: 20px;
+    
 }
 .left-content{
     padding: 1rem;
-    color: black;
-    min-height: 1200px;
+    color: rgb(253, 253, 253);
 }
 .profile-image{
     max-width: 60%;
@@ -29,10 +31,17 @@ h4{
     text-align: center;
     font-weight: 700;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    filter: invert(20%);
+}
 hr{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     height: 2px;
-    border: black;
+    border: rgb(255, 255, 255);
 }
 .description{
     text-align: center;
@@ -43,36 +52,39 @@ hr{
     text-align: left;
 }
 .row{
-    display: grid;
-    grid-template-columns: 1fr 7fr;
+    display: flex;
+    margin:auto;
+    align-items: center;
 }
 .social-icons{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
 }
 .icon{
-    display: inline;
+    display: flex;
+    flex-direction: column;
+    filter: invert(100%);
     width: 20px;
-    margin-right: 10px;
-    margin-left: 25px;
+    margin: 5px;
 }
 .skills{
     font-size: 1rem;
     text-align: center;
-    text-transform: uppercase;
     font-weight: 500;
 }
 .skill-name{
     font-size: 00.8rem;
     font-weight: 500;
     text-align: left;
-    padding-bottom: 1rem;
+    padding-bottom: 1.2rem;
 }
 .progress-bar{
     display: inline block;
-    border: 1px solid #da8a3f;
+    border: 1px solid #ffffff;
     height: 4px;
-    background-color: #da8a3f;
+    background-color: #ffffff;
 }
 #htmlPB{
     width: 70%;

@@ -1,15 +1,15 @@
 .right-section{
-    background-color: #e6b384;
-    grid-column: span 1 / span 2;
+    grid-column: span 1;
 }
 .right-main-content{
     padding: 2rem 2rem;
     }
 h2.right-title{
     text-transform: uppercase;
+    text-decoration: underline;
     font-size: 1.2rem;
     font-weight: 700;
-    padding: 0.5rem;
+    padding-left: 0.5rem;
     margin: auto;
     letter-spacing: 1px;
 }
@@ -18,7 +18,12 @@ h2.right-title{
     margin: auto;
 }
 h4.content-sub-title{
-    font-size: 1rempx;
+    font-size: 1rem;
+    margin: auto;
+}
+h5{
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
     margin: auto;
 }
 .content-item{
@@ -27,13 +32,19 @@ h4.content-sub-title{
     grid-gap: 40px;
 }
 .content-para{
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin: auto
 }
+#projects{
+    margin-left: 10px;
+}
 .duration{
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 500;
 }
 .about p{
-    font-size: 1.1rem;
+    font-size: 1rem;
+}
+.right-section a{
+    color: rgb(80, 80, 83);
 }
