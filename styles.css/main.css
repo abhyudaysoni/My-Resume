@@ -4,6 +4,10 @@
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+a{
+    color: black;
+    text-decoration: none;
+}
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0;
