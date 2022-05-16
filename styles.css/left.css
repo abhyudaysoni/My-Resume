@@ -1,0 +1,91 @@
+.left-section{
+    grid-column: span 1;
+    background-color: bisque;
+}
+.left-content{
+    padding: 1rem;
+    color: black;
+    min-height: 1200px;
+}
+.profile-image{
+    max-width: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    border: 5px solid white;
+    border-radius: 30%;
+}
+h4{
+    margin: 10px;
+}
+.name{
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+}
+.designation{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+hr{
+    background-color: black;
+    height: 2px;
+    border: black;
+}
+.description{
+    text-align: center;
+    margin: none;
+}
+.contact-info{
+    font-size: 15px;
+    text-align: left;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}
+.social-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.icon{
+    display: inline;
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+.skills{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.skill-name{
+    font-size: 00.8rem;
+    font-weight: 500;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+.progress-bar{
+    display: inline block;
+    border: 1px solid #da8a3f;
+    height: 4px;
+    background-color: #da8a3f;
+}
+#htmlPB{
+    width: 70%;
+}
+#cssPB{
+    width: 60%;
+}
+#javascriptPB{
+    width: 80%;
+}
+#javaPB{
+    width: 70%;
+}
+#dbmsPB{
+    width: 60%;
+}
