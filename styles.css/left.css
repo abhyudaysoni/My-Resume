@@ -1,7 +1,6 @@
 .left-section{
     grid-column: span 1;
     background-color: rgb(49, 49, 102);
-    border: 5px solid rgb(49, 49, 102);
     border-radius: 20px;
     
 }
@@ -34,6 +33,7 @@ h4{
 a{
     color: white;
     text-decoration: none;
+    
 }
 a:hover{
     filter: invert(20%);
@@ -48,18 +48,19 @@ hr{
     margin: none;
 }
 .contact-info{
+    display: flex;
+    flex-direction: column;
     font-size: 15px;
     text-align: left;
 }
-.row{
+.row-item{
     display: flex;
-    margin:auto;
     align-items: center;
 }
 .social-icons{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin: 5px;
 }
 .icon{
@@ -70,6 +71,8 @@ hr{
     margin: 5px;
 }
 .skills{
+    display: flex;
+    flex-direction: column;
     font-size: 1rem;
     text-align: center;
     font-weight: 500;
@@ -78,7 +81,7 @@ hr{
     font-size: 00.8rem;
     font-weight: 500;
     text-align: left;
-    padding-bottom: 1.2rem;
+    padding-bottom: 0.5rem;
 }
 .progress-bar{
     display: inline block;
@@ -86,18 +89,34 @@ hr{
     height: 4px;
     background-color: #ffffff;
 }
+.certifications{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+.certification-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 00.8rem;
+    font-weight: 500;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
 #htmlPB{
     width: 70%;
 }
 #cssPB{
-    width: 60%;
+    width: 40%;
 }
 #javascriptPB{
-    width: 80%;
+    width: 20%;
 }
 #javaPB{
-    width: 70%;
+    width: 60%;
 }
 #dbmsPB{
-    width: 60%;
+    width: 40%;
 }
