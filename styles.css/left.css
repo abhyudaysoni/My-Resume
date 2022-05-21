@@ -2,7 +2,6 @@
     grid-column: span 1;
     background-color: rgb(49, 49, 102);
     border-radius: 20px;
-    
 }
 .left-content{
     padding: 1rem;
@@ -33,7 +32,6 @@ h4{
 a{
     color: white;
     text-decoration: none;
-    
 }
 a:hover{
     filter: invert(20%);
