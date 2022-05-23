@@ -1,18 +1,20 @@
 .left-section{
     grid-column: span 1;
-    background-color: rgb(49, 49, 102);
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
+    border: 2px solid #000000;
+    height: 900px;
 }
 .left-content{
     padding: 1rem;
-    color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
 }
 .profile-image{
     max-width: 60%;
     display: block;
     margin: auto;
     margin-top: 10%;
-    border: 5px solid white;
+    border: 5px solid rgb(0, 0, 0);
     border-radius: 30%;
 }
 h4{
@@ -30,16 +32,16 @@ h4{
     font-weight: 700;
 }
 a{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 a:hover{
-    filter: invert(20%);
+    filter: contrast(10%)
 }
 hr{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     height: 2px;
-    border: rgb(255, 255, 255);
+    border: rgb(0, 0, 0);
 }
 .description{
     text-align: center;
@@ -64,7 +66,7 @@ hr{
 .icon{
     display: flex;
     flex-direction: column;
-    filter: invert(100%);
+    /* filter: invert(100%); */
     width: 20px;
     margin: 5px;
 }
@@ -83,9 +85,9 @@ hr{
 }
 .progress-bar{
     display: inline block;
-    border: 1px solid #ffffff;
+    border: 1px solid #000000;
     height: 4px;
-    background-color: #ffffff;
+    background-color: #000000;
 }
 .certifications{
     display: flex;
