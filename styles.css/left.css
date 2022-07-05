@@ -1,102 +1,103 @@
-.left-section{
+.left-section {
     grid-column: span 1;
-    background-color: rgb(255, 255, 255);
+    background-color: #222663;
     border-radius: 20px;
     border: 2px solid #000000;
     height: 900px;
+    color: white;
 }
-.left-content{
+.left-content {
     padding: 1rem;
-    color: rgb(0, 0, 0);
 }
-.profile-image{
+.profile-image {
     max-width: 60%;
     display: block;
     margin: auto;
     margin-top: 10%;
-    border: 5px solid rgb(0, 0, 0);
     border-radius: 30%;
 }
-h4{
+h4 {
     margin: 10px;
 }
-.name{
+.name {
     font-size: 1.5rem;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.02px;
 }
-.designation{
+.designation {
     text-transform: uppercase;
     text-align: center;
     font-weight: 700;
 }
-a{
-    color: rgb(0, 0, 0);
+a {
+    color: white;
     text-decoration: none;
 }
-a:hover{
-    filter: contrast(10%)
+a:hover {
+    filter: contrast(10%);
 }
-hr{
-    background-color: rgb(0, 0, 0);
+hr {
+    background-color: white;
     height: 2px;
-    border: rgb(0, 0, 0);
 }
-.description{
+.description {
     text-align: center;
     margin: none;
 }
-.contact-info{
+.contact-info {
     display: flex;
     flex-direction: column;
     font-size: 15px;
     text-align: left;
 }
-.row-item{
+.row-item {
     display: flex;
     align-items: center;
 }
-.social-icons{
+.social-icons {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 5px;
 }
-.icon{
+.icon {
     display: flex;
     flex-direction: column;
-    /* filter: invert(100%); */
+    filter: invert(100%);
     width: 20px;
     margin: 5px;
 }
-.skills{
+#fe-icon {
+    filter: none;
+}
+.skills {
     display: flex;
     flex-direction: column;
     font-size: 1rem;
     text-align: center;
     font-weight: 500;
 }
-.skill-name{
+.skill-name {
     font-size: 00.8rem;
     font-weight: 500;
     text-align: left;
     padding-bottom: 0.5rem;
 }
-.progress-bar{
+.progress-bar {
     display: inline block;
     border: 1px solid #000000;
     height: 4px;
     background-color: #000000;
 }
-.certifications{
+.certifications {
     display: flex;
     flex-direction: column;
     font-size: 1rem;
     text-align: center;
     font-weight: 500;
 }
-.certification-name{
+.certification-name {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -105,21 +106,21 @@ hr{
     text-align: left;
     padding-bottom: 0.5rem;
 }
-#htmlPB{
+#htmlPB {
     width: 70%;
 }
-#cssPB{
+#cssPB {
     width: 40%;
 }
-#javascriptPB{
+#javascriptPB {
     width: 20%;
 }
-#javaPB{
+#javaPB {
     width: 60%;
 }
-#dbmsPB{
+#dbmsPB {
     width: 40%;
 }
-#gitPB{
+#gitPB {
     width: 30%;
 }
